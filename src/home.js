@@ -1,8 +1,12 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
     return (
-        <div>
-            <h1>A simple quiz app</h1>
-            <button>Start quiz</button>
+        <div className="home">
+            <h1 className="home-h1">A Simple Quiz App</h1>
+            <div className="btn-div">
+           <Link to="/container"><button className="btn_start">Start Quiz</button></Link> 
+            </div>
         </div>
     );
 }
