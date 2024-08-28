@@ -28,10 +28,10 @@ const Container = () => {
                     You scored {score} out of {questions.length}
                 </div>
             ) :(
-                <>
+            
                 <div className="question-section">
                     <div className="question-count">
-                        <span>Question {currentQuestion +1}</span>/{questions.lenght}
+                        <span>Question {currentQuestion +1}/{questions.length}</span>
                     </div>
                     <div className="question-text">{questions[currentQuestion].questionText}
 
@@ -44,7 +44,7 @@ const Container = () => {
                     ))}
                     </div>
                 </div>
-                </>
+                
             )
 
             }
