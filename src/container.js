@@ -35,6 +35,7 @@ const Container = () => {
                 </div>
             ) : (
                 <div className="question-section">
+                    
                     <div className="question-count">
                         <span>
                             Question {currentQuestion + 1}/{questions.length}
@@ -53,7 +54,7 @@ const Container = () => {
                     <button className="nextQ"
                     onClick={()=>next()}
                     >
-                        NextQuestion
+                        SkipQuestion
                     </button>
                 </div>
             
