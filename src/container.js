@@ -27,12 +27,25 @@ const Container = () => {
         }
     }
 
+    const startOver = () => {
+        setCurrentQuestion(0);
+        setScore(0);
+        setShowScore(false);
+    };
+
+
     return (
         <div className="cont">
-            {showScore ? (
+            {showScore ? (  
                 <div className="score-section">
-                    You scored {score} out of {questions.length}
+                {score >= 6 && " Awesome!"}
+                {score <= 5 && " OOPS!"}
+                   <h4> You scored {score} out of {questions.length}</h4>
+                    <div className="btn-restart">
+                        <button className="startOver" onClick={startOver}>Start Over</button>
+                    </div>
                 </div>
+
             ) : (
                 <div className="question-section">
                     
