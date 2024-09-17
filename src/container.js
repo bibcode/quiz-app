@@ -38,8 +38,7 @@ const Container = () => {
         <div className="cont">
             {showScore ? (  
                 <div className="score-section">
-                {score >= 6 && " Awesome!"}
-                {score <= 5 && " OOPS!"}
+               <h2>{score <= 5 && " OOPS!"} {score >= 6 && " Awesome!"} </h2> 
                    <h4> You scored {score} out of {questions.length}</h4>
                     <div className="btn-restart">
                         <button className="startOver" onClick={startOver}>Start Over</button>
