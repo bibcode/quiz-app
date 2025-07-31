@@ -1,6 +1,8 @@
 import { useState } from "react";
 import questions from "./question";
 
+
+
 const Container = () => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [showScore, setShowScore] = useState(false);
@@ -9,7 +11,7 @@ const Container = () => {
     const handleAnswerOptionClick = (iscorrect) => {
         if (iscorrect) {
             setScore(score + 1);
-        }
+       }
 
         const nextQuestion = currentQuestion + 1;
         if (nextQuestion < questions.length) {
@@ -31,7 +33,7 @@ const Container = () => {
         setCurrentQuestion(0);
         setScore(0);
         setShowScore(false);
-    };
+    }
 
 
     return (

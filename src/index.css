@@ -3,6 +3,7 @@ html, body {
   margin: 0;
 }
 
+
 body {
   display: flex;
   justify-content: center;
@@ -119,4 +120,54 @@ h2{
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 30px;
+}
+
+
+
+.loginDetails{
+  display: grid;
+  margin: 10px;
+  border: #ffffff solid 1px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 20px;
+  max-width: 500px;
+  height: 400px;
+}
+
+.loginh1{
+  display: flex;
+  color: #0e634e;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.loginDetails label{
+  padding-top: 7px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.loginDetails input{
+  border: none;
+  height: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.loginDetails button{
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  color: #000;
+  width:  100%;
+  height: 40px;
+
+}
+.loginDetails button:hover{
+  background-color: #0e634e;
+  color: #ffffff;
+}
+.loginDetails p{
+  text-align: center;
 }
