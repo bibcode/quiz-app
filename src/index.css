@@ -171,3 +171,20 @@ h2{
 .loginDetails p{
   text-align: center;
 }
+
+.signup-container{
+  display: grid;
+  margin: 10px;
+  border: #558d80 solid 1px;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  height: 400px;
+}
+.signup-container input{
+  border: none;
+  height: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  /* width: 100%; */
+}

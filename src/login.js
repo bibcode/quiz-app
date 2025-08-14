@@ -20,6 +20,8 @@ const Login = () => {
       navigate('/home')
     } else {
       alert('User not found');
+      setEmail('')
+      setPassword('')
     }
   }
 
