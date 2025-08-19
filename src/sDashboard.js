@@ -1,7 +1,7 @@
 const SDashboard = () => {
     return (
         <div>
-            
+           
         </div>
     );
 }

@@ -173,18 +173,30 @@ h2{
 }
 
 .signup-container{
-  display: grid;
-  margin: 10px;
+  color: #ffffff;
+  display: grid; 
   border: #558d80 solid 1px;
   border-radius: 20px;
   padding: 20px;
-  width: 100%;
+  width: fit-content;
   height: 400px;
 }
 .signup-container input{
+  max-width: 200px; 
   border: none;
   height: 20px;
   padding: 10px;
   border-radius: 20px;
-  /* width: 100%; */
+}
+
+.signupbtn{
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  background-color: #0e634e;
+}
+
+.signup-form h1{
+  color: #0e634e;
+   padding: 0px 0px 10px; 
 }
