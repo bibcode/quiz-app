@@ -9,7 +9,7 @@ const Login = () => {
   const navigate =useNavigate();
 
   const users = [
-    { email: 'bibcodes@gmail.com', password: 'ibrahim' },
+    { email: 'bibcodes@gmail.com', password: 'tryagain' },
     { email: 'ibrahim@gmail.com', password: 'khaliel' }
   ];
 
